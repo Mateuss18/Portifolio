@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(22, 22, 22);
+  position: fixed;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+nav img{
+  height: 5.5rem;
+}
+
+nav ul{
+  display: flex;
+  list-style-type: none;
+  list-style: none;
+  text-decoration: none;
+  gap: 2rem;
+}
+
+nav a{
+  text-decoration: none;
+  color: rgb(231, 0, 0);
+  font-size: 20px;
+}
+
+#ApresentacaoHeader{
+  display: flex;
+  padding-top: 88px;
+  background-color: rgb(25, 25, 25);
+  color: rgb(242, 10, 18);
+  align-items: center;
+}
+
+#saudacaoHeader{
+  font-size: 22px;
+}
+
+#nome{
+  font-size: 35px;
+}
+
+#funcaoHeader{
+  font-size: 22px;
+}
