@@ -12,6 +12,10 @@
   user-select: none;
 }
 
+body{
+  background-color: rgb(242, 20, 20);
+}
+
 nav{
   display: flex;
   justify-content: space-around;
@@ -19,11 +23,10 @@ nav{
   background-color: rgb(22, 22, 22);
   position: fixed;
   width: 100%;
-  margin-bottom: 100px;
 }
 
 nav img{
-  height: 5.5rem;
+  height: 5rem;
 }
 
 nav ul{
@@ -37,7 +40,7 @@ nav ul{
 nav a{
   text-decoration: none;
   color: rgb(231, 0, 0);
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #ApresentacaoHeader{
@@ -58,4 +61,40 @@ nav a{
 
 #funcaoHeader{
   font-size: 22px;
+}
+
+#Sobre{
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  padding-bottom: 70px;
+}
+
+#Sobre img{
+  height: 350px;
+  margin: 30px;
+}
+
+#Sobre aside{
+  padding-left: 30px;
+  margin: 30px;
+}
+
+#Sobre h3{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+#Sobre p{
+  text-align: justify;
+  font-size: 18px;
+}
+
+#Conhecimentos{
+  display: flex;
+  background-color: rgb(25, 25, 25);
+}
+
+#TecnologiasCards img{
+  height: 100px;
 }
