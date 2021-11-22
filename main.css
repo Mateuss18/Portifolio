@@ -16,6 +16,7 @@ body{
   background-color: rgb(242, 20, 20);
 }
 
+/*NAVEGATION*/
 nav{
   display: flex;
   justify-content: space-around;
@@ -43,6 +44,7 @@ nav a{
   font-size: 18px;
 }
 
+/*HEADER DE APRESENTAÇÃO PESSOAL E IMAGEM*/
 #ApresentacaoHeader{
   display: flex;
   padding-top: 88px;
@@ -63,6 +65,7 @@ nav a{
   font-size: 22px;
 }
 
+/*SOBRE MIM COM IMAGEM*/
 #Sobre{
   display: flex;
   justify-content: center;
@@ -90,6 +93,7 @@ nav a{
   font-size: 18px;
 }
 
+/*CONHECIMENTOS*/
 #Conhecimentos{
   display: flex;
   background-color: rgb(25, 25, 25);
