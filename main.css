@@ -96,9 +96,50 @@ nav a{
 /*CONHECIMENTOS*/
 #Conhecimentos{
   display: flex;
+  flex-direction: column;
+  padding-top: 90px;
+  padding-bottom: 90px;
   background-color: rgb(25, 25, 25);
 }
 
-#TecnologiasCards img{
-  height: 100px;
+#Conhecimentos h3{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-size: 30px;
+  color: rgb(231, 0, 0);
+}
+
+#TecnologiasCards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CardsTecs{
+  display: flex;
+  color: rgb(231, 0, 0);
+  gap: 70px;
+  margin-bottom: 35px;
+}
+
+.CardsImage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+  color: rgb(211, 211, 211);
+  padding: 10px;
+  width: 109px;
+  height: 109px;
+}
+
+.CardsImage img{
+  height: 80px;
+}
+
+.AsideCards{
+  display: flex;
+  align-items: center;
+  color: rgb(211, 211, 211);
 }
