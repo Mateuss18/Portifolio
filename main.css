@@ -47,10 +47,14 @@ nav a{
 /*HEADER DE APRESENTAÇÃO PESSOAL E IMAGEM*/
 #ApresentacaoHeader{
   display: flex;
-  padding-top: 88px;
+  padding-top: 60px;
   background-color: rgb(25, 25, 25);
   color: rgb(242, 10, 18);
   align-items: center;
+}
+
+#ApresentacaoHeader aside{
+  padding-bottom: 55px;
 }
 
 #saudacaoHeader{
@@ -74,6 +78,7 @@ nav a{
 }
 
 #Sobre img{
+  border-radius: 200px;
   height: 350px;
   margin: 30px;
 }
@@ -146,7 +151,7 @@ nav a{
 
 /*PROJETOS*/
 #Projetos{
-  display: flex;max-width: 1100px;
+  display: flex;max-width: 1150px;
   margin: 0 auto;
   flex-direction: column;
   padding-top: 100px;
@@ -170,9 +175,17 @@ nav a{
 
 .cardsProjeto{
   padding: 10px;
+  padding-left: 22px;
+  padding-right: 22px;
   margin-bottom: 30px;
   border-radius: 5px;
   background-color: rgb(252, 34, 34);
+}
+
+.cardsProjeto h2{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .cardsProjeto img{
