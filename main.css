@@ -210,4 +210,10 @@ nav a{
   color: rgb(231, 0, 0);
 }
 
-
+#Contato ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 20px
+}
