@@ -215,5 +215,9 @@ nav a{
   align-items: center;
   justify-content: center;
   list-style: none;
-  gap: 20px
+  gap: 40px
+}
+
+#Contato ul img{
+  height: 45px;
 }
