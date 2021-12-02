@@ -221,3 +221,9 @@ nav a{
 #Contato ul img{
   height: 45px;
 }
+
+footer{
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
