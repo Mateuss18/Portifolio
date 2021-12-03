@@ -227,3 +227,57 @@ footer{
   justify-content: center;
   font-size: 14px;
 }
+
+/*RESPONSIVIDADE*/
+@media screen and (max-width: 425px){
+
+/*NAVEGATION*/
+
+nav{
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+}
+
+nav ul{
+  gap: 0.8rem;
+}
+
+nav a{
+  font-size: 14px;  
+}
+
+nav img{
+  height: 70px;
+}
+
+/*HEADER DE APRESENTAÇÃO PESSOAL E IMAGEM*/
+#ApresentacaoHeader{
+  height: 500px;
+  padding-top: 120px;
+}
+
+#ApresentacaoHeader aside{
+  display: flex;
+  text-align: center;
+}
+
+#saudacaoHeader{
+  font-size: 18px;
+}
+
+#nome{
+  font-size: 35px;
+}
+
+#funcaoHeader{
+  font-size: 20px;
+}
+
+#ApresentacaoHeader img{
+  height: 1px;
+}
+
+
+
+}
