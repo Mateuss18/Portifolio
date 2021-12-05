@@ -96,6 +96,7 @@ nav a{
 #Sobre p{
   text-align: justify;
   font-size: 18px;
+  width: 600px;
 }
 
 /*CONHECIMENTOS*/
@@ -251,14 +252,13 @@ nav img{
   height: 70px;
 }
 
-/*HEADER DE APRESENTAÇÃO PESSOAL E IMAGEM*/
+/*HEADER DE APRESENTAÇÃO PESSOAL*/
 #ApresentacaoHeader{
   height: 500px;
   padding-top: 120px;
 }
 
 #ApresentacaoHeader aside{
-  display: flex;
   text-align: center;
 }
 
@@ -275,9 +275,33 @@ nav img{
 }
 
 #ApresentacaoHeader img{
-  height: 1px;
+  display: none;
 }
 
+/*SOBRE MIM*/
+#Sobre{
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
 
+#Sobre img{
+  display: none;
+}
+
+#Sobre aside{
+  padding-left: 0;
+  margin: 30px;
+}
+
+#Sobre h3{
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+#Sobre p{
+  font-size: 15px;
+  width: 370px;
+}
 
 }
