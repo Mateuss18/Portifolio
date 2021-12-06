@@ -326,8 +326,7 @@ nav img{
 }
 
 #Projetos h3{
-  font-size: 30px;
-  padding-bottom: 50px;
+  font-size: 28px;
 }
 
 #ContainerCards{
@@ -336,21 +335,29 @@ nav img{
 }
 
 .cardsProjeto{
-  padding: 10px;
-  padding-left: 22px;
-  padding-right: 22px;
-  margin-bottom: 30px;
   border-radius: 6px;
 }
 
 .cardsProjeto h2{
   font-size: 18px;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .cardsProjeto img{
   height: 180px;
+}
+
+/*CONTATO*/
+#Contato{
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+#Contato h3{
+  font-size: 28px;
+}
+
+footer{
+  font-size: 13px;
 }
 
 }
