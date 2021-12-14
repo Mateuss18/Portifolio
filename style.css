@@ -10,10 +10,15 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+
+  --red-dark: #940000;
+  --gray-dark: rgb(22, 22, 22);
+  --gray-dark2: rgb(25, 25, 25);
+  --white: rgb(211, 211, 211);
 }
 
 body{
-  background-color: rgb(242, 20, 20);
+  background-color: var(--red-dark);
 }
 
 /*NAVEGATION*/
@@ -21,7 +26,7 @@ nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(22, 22, 22);
+  background-color: var(--gray-dark2);
   position: fixed;
   width: 100%;
 }
@@ -40,17 +45,23 @@ nav ul{
 
 nav a{
   text-decoration: none;
-  color: rgb(231, 0, 0);
+  color: var(--white);
   font-size: 18px;
 }
 
 /*HEADER DE APRESENTAÇÃO PESSOAL E IMAGEM*/
 #ApresentacaoHeader{
   display: flex;
-  padding-top: 60px;
-  background-color: rgb(25, 25, 25);
-  color: rgb(242, 10, 18);
+  justify-content: center;
   align-items: center;
+  padding-top: 60px;
+  gap: 4rem;
+  background-color: rgb(25, 25, 25);
+  color: var(--white);
+}
+
+#ApresentacaoHeader img{
+  height: 35rem;
 }
 
 #ApresentacaoHeader aside{
@@ -90,12 +101,17 @@ nav a{
 
 #Sobre h3{
   font-size: 30px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  color: var(--white);
 }
 
 #Sobre p{
   text-align: justify;
   font-size: 18px;
-  width: 600px;
+  max-width: 650px;
+  color: var(--white);
+  width: auto;
 }
 
 /*CONHECIMENTOS*/
@@ -112,7 +128,7 @@ nav a{
   justify-content: center;
   margin-bottom: 50px;
   font-size: 30px;
-  color: rgb(231, 0, 0);
+  color: var(--white);
 }
 
 #TecnologiasCards{
@@ -123,7 +139,6 @@ nav a{
 
 .CardsTecs{
   display: flex;
-  color: rgb(231, 0, 0);
   gap: 70px;
   margin-bottom: 35px;
 }
@@ -157,6 +172,7 @@ nav a{
   flex-direction: column;
   padding-top: 100px;
   padding-bottom: 90px;
+  color: var(--white);
 }
 
 #Projetos h3{
@@ -180,7 +196,7 @@ nav a{
   padding-right: 22px;
   margin-bottom: 30px;
   border-radius: 5px;
-  background-color: rgb(252, 34, 34);
+  background-color: rgb(184, 0, 0);
 }
 
 .cardsProjeto h2{
@@ -207,7 +223,7 @@ nav a{
   justify-content: center;
   margin-bottom: 50px;
   font-size: 30px;
-  color: rgb(231, 0, 0);
+  color: var(--white);
 }
 
 #Contato ul{
@@ -226,9 +242,10 @@ footer{
   display: flex;
   justify-content: center;
   font-size: 14px;
+  color: var(--white);
 }
 
-/*RESPONSIVIDADE*/
+/*---------------------------RESPONSIVIDADE---------------------------*/
 @media screen and (max-width: 425px){
 
 /*NAVEGATION*/
@@ -300,7 +317,6 @@ nav img{
 
 #Sobre p{
   font-size: 15px;
-  width: 370px;
 }
 
 /*CONHECIMENTOS*/
