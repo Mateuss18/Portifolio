@@ -49,6 +49,11 @@ nav a{
   font-size: 18px;
 }
 
+nav li:hover{
+  background-color: #212121;
+  padding: 10px 5px 5px 5px;
+}
+
 /*HEADER DE APRESENTAÇÃO PESSOAL E IMAGEM*/
 #ApresentacaoHeader{
   display: flex;
