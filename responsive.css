@@ -1,0 +1,136 @@
+/*---------------------------RESPONSIVIDADE---------------------------*/
+@media screen and (max-width: 425px){
+
+    /*NAVEGATION*/
+    
+    nav{
+      align-items: center;
+      flex-direction: column;
+      position: absolute;
+    }
+    
+    nav ul{
+      gap: 0.8rem;
+    }
+    
+    nav a{
+      font-size: 13px;  
+    }
+    
+    nav img{
+      height: 70px;
+    }
+    
+    /*HEADER DE APRESENTAÇÃO PESSOAL*/
+    #ApresentacaoHeader{
+      height: 500px;
+      padding-top: 120px;
+    }
+    
+    #ApresentacaoHeader aside{
+      text-align: center;
+    }
+    
+    #saudacaoHeader{
+      font-size: 18px;
+    }
+    
+    #nome{
+      font-size: 35px;
+    }
+    
+    #funcaoHeader{
+      font-size: 20px;
+    }
+    
+    #ApresentacaoHeader img{
+      display: none;
+    }
+    
+    /*SOBRE MIM*/
+    #Sobre{
+      padding-top: 60px;
+      padding-bottom: 70px;
+    }
+    
+    #Sobre img{
+      display: none;
+    }
+    
+    #Sobre aside{
+      padding: 0;
+      margin: 0;
+    }
+    
+    #Sobre h3{
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+    
+    #Sobre p{
+      font-size: 15px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    
+    /*CONHECIMENTOS*/
+    #Conhecimentos{
+      padding-top: 60px;
+      padding-bottom: 70px;
+    }
+    
+    #Conhecimentos h3{
+      margin-bottom: 30px;
+      font-size: 28px;
+    }
+    
+    .CardsTecs{
+      gap: 40px;
+    }
+    
+    /*PROJETOS*/
+    #Projetos{
+      max-width: auto;
+      padding-top: 60px;
+      padding-bottom: 70px;
+    }
+    
+    #Projetos h3{
+      font-size: 28px;
+    }
+    
+    #ContainerCards{
+      justify-content: center;
+      padding: 0;
+    }
+    
+    .cardsProjeto{
+      border-radius: 6px;
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+    
+    .cardsProjeto h2{
+      font-size: 18px;
+    }
+    
+    .cardsProjeto img{
+      height: 150px;
+    }
+    
+    /*CONTATO*/
+    #Contato{
+      padding-top: 60px;
+      padding-bottom: 70px;
+    }
+    
+    #Contato h3{
+      font-size: 28px;
+    }
+    
+    footer{
+      font-size: 13px;
+    }
+    
+    }
