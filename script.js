@@ -56,3 +56,16 @@ function smoothScrollTo(endX, endY, duration) {
     window.scroll(newX, newY);
   }, 1000 / 60); // 60 fps
 };
+
+//Efeito maquina de escrever da area apresentação
+function typeWriter(elemento){
+  const textoArray = elemento.innerHTML.split('')
+  elemento.innerHTML = ''
+  textoArray.forEach((letra, i) => {
+    setTimeout(()=>
+      elemento.innerHTML += letra, 75 * i)
+  })
+}
+
+const titulo = document.getElementById('nome')
+typeWriter(titulo)
