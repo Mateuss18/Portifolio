@@ -46,9 +46,6 @@ nav img{
 
 nav .menu{
   display: flex;
-  list-style-type: none;
-  list-style: none;
-  text-decoration: none;
   gap: 2rem;
 }
 
@@ -90,6 +87,22 @@ nav a:hover{
 
 #nome{
   font-size: 35px;
+}
+
+#nome::after{
+  content: '|';
+  margin-top: 5px;
+  opacity: 1;
+  animation: piscar .7s infinite;
+}
+
+@keyframes piscar{
+  0%, 100%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
 }
 
 #funcaoHeader{
