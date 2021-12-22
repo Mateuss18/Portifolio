@@ -69,3 +69,16 @@ function typeWriter(elemento){
 
 const titulo = document.getElementById('nome')
 typeWriter(titulo)
+
+//Animação dos elementos aparecendo
+const sr = ScrollReveal({
+  origin: 'top',
+  distance: '50px',
+  duration: 2000,
+  reset: false
+});
+
+sr.reveal('#image-header', { delay: 2000 });
+sr.reveal('#textoApresentacao', { delay: 9000 });
+sr.reveal('#funcaoHeader', { delay: 2000 });
+sr.reveal('.description', { delay: 350 });
