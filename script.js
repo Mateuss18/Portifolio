@@ -78,7 +78,8 @@ const sr = ScrollReveal({
   reset: false
 });
 
-sr.reveal('#image-header', { delay: 2000 });
-sr.reveal('#textoApresentacao', { delay: 9000 });
-sr.reveal('#funcaoHeader', { delay: 2000 });
-sr.reveal('.description', { delay: 350 });
+sr.reveal('.image', { delay: 400 });
+sr.reveal('.informacoes', { delay: 400 });
+sr.reveal('.title', { delay: 400 });
+sr.reveal('.description', { delay: 600 });
+sr.reveal('.cardsInterval', { interval: 300 });

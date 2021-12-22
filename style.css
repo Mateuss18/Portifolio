@@ -88,12 +88,14 @@ nav a:hover {
 }
 
 #ApresentacaoHeader img {
-  height: 550px;
+  height: 650px;
   padding-right: 40px;
+  flex: 1;
 }
 
 #ApresentacaoHeader aside {
   padding-bottom: 55px;
+  flex: 1;
 }
 
 #saudacaoHeader {
