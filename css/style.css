@@ -56,10 +56,6 @@ nav .ball {
   width: 20px;
 }
 
-nav img {
-  height: 60px;
-}
-
 nav .menu {
   display: flex;
   gap: 2rem;
@@ -84,17 +80,18 @@ nav a:hover {
   justify-content: center;
   background-color: var(--gray-dark2);
   height: 655px;
-  padding-bottom: 20px;
+  padding: 0 20px 0 20px;
 }
 
 #ApresentacaoHeader img {
-  height: 650px;
-  padding-right: 40px;
-  flex: 1;
+  max-width: 100%;
+  height: auto;
+  margin-right: 40px;
 }
 
 #ApresentacaoHeader aside {
-  padding-bottom: 55px;
+  padding: 0 0 55px 0px;
+  max-width: 100%;
   flex: 1;
 }
 
