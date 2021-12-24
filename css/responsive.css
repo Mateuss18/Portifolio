@@ -1,7 +1,7 @@
 /*---------------------------RESPONSIVIDADE---------------------------*/
-/*MOBILE*/
-@media screen and (max-width: 425px){
 
+/*          --MOBILE--          */
+@media screen and (max-width: 425px){
     /*NAVEGATION*/
     nav{
       align-items: center;
@@ -22,7 +22,7 @@
     /*HEADER DE APRESENTAÇÃO PESSOAL*/
     #ApresentacaoHeader{
       height: 500px;
-      padding-top: 120px;
+      padding-top: 60px;
     }
     #ApresentacaoHeader aside{
       text-align: center;
@@ -75,6 +75,9 @@
     .CardsTecs{
       gap: 40px;
     }
+    .CardsTecs p{
+      max-width: fit-content;
+    }
     
     /*PROJETOS*/
     #Projetos{
@@ -113,4 +116,30 @@
       font-size: 12px;
     }
     
+    }
+
+/*         -----NOTEBOOK-----          */
+    @media screen and (max-width: 1150px){
+      #ApresentacaoHeader img {
+        max-width: 50%;
+      }
+      #ContainerCards {
+        justify-content: space-around;
+      }
+    }
+
+/*          -----TABLET-----          */
+    @media screen and (max-width: 900px){
+      #ApresentacaoHeader img {
+        display: none;
+      }
+      #ApresentacaoHeader aside{
+        text-align: center;
+      }
+      #Sobre img{
+        display: none;
+      }
+      .cardsProjeto img{
+        height: 150px;
+      }
     }
