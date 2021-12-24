@@ -83,3 +83,14 @@ sr.reveal('.informacoes', { delay: 400 });
 sr.reveal('.title', { delay: 400 });
 sr.reveal('.description', { delay: 600 });
 sr.reveal('.cardsInterval', { interval: 300 });
+
+//Botão para menu mobile
+
+const btnMobile = document.getElementById('btn-mobile')
+
+function toggleMenu(){
+  const nav = document.getElementById('nav')
+  nav.classList.toggle('active')
+}
+
+btnMobile.addEventListener('click', toggleMenu)

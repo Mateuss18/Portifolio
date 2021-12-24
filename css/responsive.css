@@ -1,19 +1,79 @@
+@import url(./style.css);
+
 /*---------------------------RESPONSIVIDADE---------------------------*/
 
-/*          --MOBILE--          */
+/* MENU */
+@media (max-width: 700px){
+  #btn-mobile{
+    display: flex;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    color: var(--white);
+    cursor: pointer;
+    gap: .5rem;
+  }
+  #hamburger{
+    border-top: 2px solid var(--red-dark);
+    width: 30px;
+    margin-top: 3.5px;
+  }
+  #hamburger::after, #hamburger::before{
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: var(--red-dark);
+    margin-top: 7px;
+    transition: .4s;
+    position: relative;
+  }
+  #nav.active #hamburger{
+    border-top-color: transparent;
+  }
+  #nav.active #hamburger::before{
+    transform: rotate(135deg);
+  }
+  #nav.active #hamburger::after{
+    top: -9px;
+    transform: rotate(-135deg);
+  }
+  nav #menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    top: 60px;
+    right: 0px;
+    background-color: var(--gray-dark);
+    z-index: 1000;
+    transition: .6s;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  #nav.active #menu{
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+    visibility: visible;
+  }
+  nav a{
+    border-bottom: 2px solid var(--red-dark);
+    margin: 0 1rem;
+  }
+}
+
+/*          -----MOBILE-----          */
 @media screen and (max-width: 425px){
     /*NAVEGATION*/
     nav{
       align-items: center;
-      flex-direction: column;
+
       position: absolute;
     }
     nav .menu{
       gap: 0.8rem;
-    }
-    nav a{
-      font-size: 13px;  
-      display: none;
     }
     nav img{
       height: 70px;
@@ -118,28 +178,33 @@
     
     }
 
-/*         -----NOTEBOOK-----          */
-    @media screen and (max-width: 1150px){
-      #ApresentacaoHeader img {
-        max-width: 50%;
-      }
-      #ContainerCards {
-        justify-content: space-around;
-      }
-    }
-
 /*          -----TABLET-----          */
-    @media screen and (max-width: 900px){
-      #ApresentacaoHeader img {
-        display: none;
-      }
-      #ApresentacaoHeader aside{
-        text-align: center;
-      }
-      #Sobre img{
-        display: none;
-      }
-      .cardsProjeto img{
-        height: 150px;
-      }
+  @media screen and (max-width: 900px){
+    nav{
+      justify-content: space-between;
+      padding: 0 30px 0 30px;
+      gap: 0;
     }
+    #ApresentacaoHeader img {
+      display: none;
+    }
+    #ApresentacaoHeader aside{
+      text-align: center;
+    }
+    #Sobre img{
+      display: none;
+    }
+    .cardsProjeto img{
+      height: 150px;
+    }
+  }
+
+/*         -----NOTEBOOK-----          */
+  @media screen and (max-width: 1150px){
+    #ApresentacaoHeader img {
+      max-width: 50%;
+    }
+    #ContainerCards {
+      justify-content: space-around;
+    }
+  }
