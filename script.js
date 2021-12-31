@@ -1,5 +1,5 @@
 //Fazendo o scroll do menu de navegação mais suave
-const intensMenu = document.querySelectorAll('.menu a[href^="#"]')
+const intensMenu = document.querySelectorAll('#menu a[href^="#"]')
 
 intensMenu.forEach(item => {
     item.addEventListener('click', scrollToIdOnClick)
@@ -12,7 +12,7 @@ function getScrollTopByHref(element){
 
 function scrollToIdOnClick(event){
     event.preventDefault();
-    const to = getScrollTopByHref(event.target) - 40
+    const to = getScrollTopByHref(event.target)
 
     scrollToPosition(to)
 }
@@ -85,12 +85,13 @@ sr.reveal('.description', { delay: 600 });
 sr.reveal('.cardsInterval', { interval: 300 });
 
 //Botão para menu mobile
-
 const btnMobile = document.getElementById('btn-mobile')
 
-function toggleMenu(){
+function toggleMenu(event){
+  if(event.type === 'touchstart') event.preventDefault()
   const nav = document.getElementById('nav')
   nav.classList.toggle('active')
 }
 
 btnMobile.addEventListener('click', toggleMenu)
+btnMobile.addEventListener('touchstart', toggleMenu)
