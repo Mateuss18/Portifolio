@@ -1,138 +1,151 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <!--FAVICON-->
-  <link rel="shortcut icon" href="./images/favicon1.png" type="image/x-icon">
-  <link rel="icon" href="./images/favicon1.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/responsive.css">
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="./images/favicon1.png" type="image/x-icon">
+    <link rel="icon" href="./images/favicon1.png" type="image/x-icon">
 
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--Etilo-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-  <title>Mateus Antonio Rodrigues Lopes</title>
+    <!--Import para a area projetos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-</head>
-<body>
-  <header>
-    <!--NAVEGATION-->
-    <nav id="nav">
-      <div id="balls">
-        <div class="ball" style="background-color: #940000;"></div>
-        <div class="ball" style="background-color: #191919;"></div>
-        <div class="ball" style="background-color: #D3D3D3;"></div>
-      </div>
-      <button id="btn-mobile">Menu
-        <span id="hamburger"></span>
-      </button>
-      <div id="menu">
-        <a href="#ApresentacaoHeader">Home</a>
-        <a href="#Sobre">Sobre</a>
-        <a href="#Conhecimentos">Conhecimentos</a>
-        <a href="#Projetos">Projetos</a>
-        <a href="#Contato">Contato</a>
-      </div>
-    </nav>
+    <title>Mateus Lopes Portfolio</title>
 
-    <!--HEADER COM APRESENTAÇÃO PESSOAL E UMA IMAGEM-->
-    <div id="ApresentacaoHeader">
-      <img class="image" src="./images/Red-Space.jpg" alt="">
-      <aside class="informacoes">
-        <h1>
-          <span id="saudacaoHeader">Hello World, sou </span><br> 
-          <span id="nome">Mateus Antonio Rodrigues Lopes.</span> <br>
-          <span id="funcaoHeader">Desenvolvedor web</span>
-        </h1>
-      </aside>
-    </div>
-  </header>
-
-  <main>
-    <!--SOBRE MIM COM IMAGEM-->
-    <section id="Sobre">
-      <img class="image" src="./images/Porfile-pic.jfif" alt="">
-      <aside>
-        <h3 class="title">Sobre mim</h3>
-        <p class="description">
-          Sou estudante do curso de Análise e Desenvolvimento de Sistemas na FATEC e estudo bastante as tecnologias web que comecei no  inicio de 2021. Atualmente estou em busca de uma oportunidade para entrar no mercado de trabalho aplicando e desenvolvendo ainda  mais meu conhecimento na área.
-        </p>
-      </aside>
-    </section>
-
-    <!--CONHECIMENTOS-->
-    <section id="Conhecimentos">
-      <h3 class="title">Conhecimentos</h3>
-      <div id="TecnologiasCards">
-        <article class="CardsTecs cardsInterval">
-          <div class="CardsImage"><h2>HTML</h2><img src="./images/logo-HTML5.png" alt=""></div> 
-          <aside class="AsideCards"><p>9 mêses de expêriencia</p></aside>
-        </article>
-
-        <article class="CardsTecs cardsInterval">
-          <div class="CardsImage"><h2>CSS</h2><img src="./images/logo-CSS3.png" alt=""></div>
-          <aside class="AsideCards"><p>9 mêses de expêriencia</p></aside>
-        </article>
-
-        <article class="CardsTecs cardsInterval">
-          <div class="CardsImage"><h2>JavaScript</h2><img src="./images/logo-Javascript.png" alt=""></div>
-          <aside class="AsideCards"><p>9 mêses de expêriencia</p></aside>
-        </article>
-
-      </div>
-    </section>
-
-    <!--PROJETOS-->
-    <section id="Projetos">
-      <h3 class="title">Projetos</h3>
-
-      <div id="ContainerCards">
-        <div class="cardsProjeto cardsInterval">
-          <h2>Nome projeto</h2>
-          <img src="./images/teste.png" alt="">
-          <p>Informações sobre o projeto</p>
+  </head>
+  <body>
+    <header>
+      <!--NAVEGATION-->
+      <nav id="nav">
+        <div id="balls">
+          <div class="ball" style="background-color: #940000;"></div>
+          <div class="ball" style="background-color: #191919;"></div>
+          <div class="ball" style="background-color: #D3D3D3;"></div>
         </div>
-
-        <div class="cardsProjeto cardsInterval">
-          <h2>Nome projeto</h2>
-          <img src="./images/teste.png" alt="">
-          <p>Informações sobre o projeto</p>
+        <button id="btn-mobile">Menu
+          <span id="hamburger"></span>
+        </button>
+        <div id="menu">
+          <a href="#ApresentacaoHeader">Home</a>
+          <a href="#Sobre">Sobre</a>
+          <a href="#Conhecimentos">Conhecimentos</a>
+          <a href="#Projetos">Projetos</a>
+          <a href="#Contato">Contato</a>
         </div>
+      </nav>
 
-        <div class="cardsProjeto cardsInterval">
-          <h2>Nome projeto</h2>
-          <img src="./images/teste.png" alt="">
-          <p>Informações sobre o projeto</p>
-        </div>
-
-        <div class="cardsProjeto cardsInterval">
-          <h2>Nome projeto</h2>
-          <img src="./images/teste.png" alt="">
-          <p>Informações sobre o projeto</p>
-        </div>
+      <!--HEADER COM APRESENTAÇÃO PESSOAL E UMA IMAGEM-->
+      <div id="ApresentacaoHeader">
+        <img class="image" src="./images/Red-Space.jpg" alt="">
+        <aside class="informacoes">
+          <h1>
+            <span id="saudacaoHeader">Hello World, sou </span><br> 
+            <span id="nome">Mateus Antonio Rodrigues Lopes.</span> <br>
+            <span id="funcaoHeader">Desenvolvedor web</span>
+          </h1>
+        </aside>
       </div>
-    </section>
+    </header>
 
-     <!--CONTATO-->
-    <section id="Contato">
-      <h3 class="title">Contato</h3>
+    <main>
+      <!--SOBRE MIM COM IMAGEM-->
+      <section id="Sobre">
+        <img class="image" src="./images/Porfile-pic.jfif" alt="">
+        <aside>
+          <h3 class="title">Sobre mim</h3>
+          <p class="description">
+            Sou estudante do curso de Análise e Desenvolvimento de Sistemas na FATEC e estudo bastante as tecnologias web que comecei no  inicio de 2021. Atualmente estou em busca de uma oportunidade para entrar no mercado de trabalho aplicando e desenvolvendo ainda  mais meu conhecimento na área.
+          </p>
+        </aside>
+      </section>
 
-      <ul>
-        <li><a class="cardsInterval" href="mailto:Mateus20.lopes02@gmail.com" target="_blank"><img style="border: 2px solid #EF3828; border-radius: 25px;" src="./images/email-logo.png" alt=""></a></li>
-        <li><a class="cardsInterval" href="https://www.linkedin.com/in/mateus--lopes/" target="_blank"><img src="./images/linkedin-logo.png" alt=""></a></li>
-        <li><a class="cardsInterval" href="https://github.com/Mateuss18" target="_blank"><img src="./images/github-logo.png" alt=""></a></li>
-        <li><a class="cardsInterval" href="https://api.whatsapp.com/send?phone=5519996489694" target="_blank"><img src="./images/whatsapp-logo.png" alt=""></a></li>
-      </ul>
-    </section>
-  </main>
+      <!--CONHECIMENTOS-->
+      <section id="Conhecimentos">
+        <h3 class="title">Conhecimentos</h3>
+        <div id="TecnologiasCards">
+          <article class="CardsTecs cardsInterval">
+            <div class="CardsImage"><h2>HTML</h2><img src="./images/logo-HTML5.png" alt=""></div> 
+            <aside class="AsideCards"><p>9 mêses de expêriencia</p></aside>
+          </article>
 
-  <footer>
-    &copy;Copyright 2021 -
-    Desenvolvido por Mateus Lopes
-  </footer>
-  <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
-  <script src="./script.js"></script>
-</body>
+          <article class="CardsTecs cardsInterval">
+            <div class="CardsImage"><h2>CSS</h2><img src="./images/logo-CSS3.png" alt=""></div>
+            <aside class="AsideCards"><p>9 mêses de expêriencia</p></aside>
+          </article>
+
+          <article class="CardsTecs cardsInterval">
+            <div class="CardsImage"><h2>JavaScript</h2><img src="./images/logo-Javascript.png" alt=""></div>
+            <aside class="AsideCards"><p>9 mêses de expêriencia</p></aside>
+          </article>
+
+        </div>
+      </section>
+
+      <!--PROJETOS-->
+      <section id="Projetos">
+          <h3 class="title">Projetos</h3>
+
+          <div id="ContainerCards">
+              <div class="cardsProjeto cardsInterval">
+                <h2>CRUD cadastro de cliente</h2>
+                <a href="https://mateuss18.github.io/CRUD-em-Javascript/" target="_blank"><img src="https://raw.githubusercontent.com/Mateuss18/CRUD-em-Javascript/main/images/CRUD.png" alt=""></a>
+                <p>Informações sobre o projeto</p>
+              </div>
+
+              <div class="cardsProjeto cardsInterval">
+                <h2>Nome projeto</h2>
+                <img src="./images/teste.png" alt="">
+                <p>Informações sobre o projeto</p>
+              </div>
+
+              <div class="cardsProjeto cardsInterval">
+                <h2>Nome projeto</h2>
+                <img src="./images/teste.png" alt="">
+                <p>Informações sobre o projeto</p>
+              </div>
+
+              <div class="cardsProjeto cardsInterval">
+                <h2>Nome projeto</h2>
+                <img src="./images/teste.png" alt="">
+                <p>Informações sobre o projeto</p>
+              </div>
+          </div>
+      </section>
+
+      <!--CONTATO-->
+      <section id="Contato">
+        <h3 class="title">Contato</h3>
+
+        <ul>
+          <li><a class="cardsInterval" href="mailto:Mateus20.lopes02@gmail.com" target="_blank"><img style="border: 2px solid #EF3828; border-radius: 25px;" src="./images/email-logo.png" alt=""></a></li>
+          <li><a class="cardsInterval" href="https://www.linkedin.com/in/mateus--lopes/" target="_blank"><img src="./images/linkedin-logo.png" alt=""></a></li>
+          <li><a class="cardsInterval" href="https://github.com/Mateuss18" target="_blank"><img src="./images/github-logo.png" alt=""></a></li>
+          <li><a class="cardsInterval" href="https://api.whatsapp.com/send?phone=5519996489694" target="_blank"><img src="./images/whatsapp-logo.png" alt=""></a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      &copy;Copyright 2021 -
+      Desenvolvido por Mateus Lopes
+    </footer>
+    
+    <!--Scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    <!--Jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--Bootstrap-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--Slick slider-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
