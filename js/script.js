@@ -95,3 +95,6 @@ function toggleMenu(event){
 
 btnMobile.addEventListener('click', toggleMenu)
 btnMobile.addEventListener('touchstart', toggleMenu)
+
+//Carousel da area projetos
+

@@ -245,7 +245,8 @@ nav a:hover {
 }
 
 .cardsProjeto img {
-  height: 280px;
+  height: 250px;
+  width: auto;
 }
 
 /*CONTATO*/
