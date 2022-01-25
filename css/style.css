@@ -249,6 +249,21 @@ nav a:hover {
   width: auto;
 }
 
+.PorjetosModal{
+  display: flex;
+  justify-content: center;
+}
+
+.PorjetosModal button{
+  cursor: pointer;
+  font-size: 17px;
+  color: var(--white);
+  background-color: var(--gray-dark2);
+  border: 3px var(--gray-dark2) solid;
+  border-radius: 10px;
+  padding: 3px 20px;
+}
+
 /*CONTATO*/
 #Contato {
   background-color: var(--gray-dark2);
