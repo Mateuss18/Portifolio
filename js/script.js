@@ -88,13 +88,28 @@ sr.reveal('.cardsInterval', { interval: 300 });
 const btnMobile = document.getElementById('btn-mobile')
 
 function toggleMenu(event){
-  if(event.type === 'touchstart') event.preventDefault()
-  const nav = document.getElementById('nav')
-  nav.classList.toggle('active')
+    if(event.type === 'touchstart') event.preventDefault()
+    const nav = document.getElementById('nav')
+    nav.classList.toggle('active')
 }
 
 btnMobile.addEventListener('click', toggleMenu)
 btnMobile.addEventListener('touchstart', toggleMenu)
 
-//Carousel da area projetos
+//Modal com os projetos
 
+function abrirModal(){
+    let modal = document.querySelector('.modal')
+    let body = document.querySelector('.body')
+
+    modal.style.display = 'block'
+    body.style.overflow = 'hidden'
+}
+
+function fecharModal(){
+    let modal = document.querySelector('.modal')
+    let body = document.querySelector('.body')
+        
+    modal.style.display = 'none'
+    body.style.overflow = 'auto'
+}
