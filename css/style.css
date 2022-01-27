@@ -20,6 +20,7 @@
 body {
   padding-top: 60px;
   background-color: var(--red-dark);
+  overflow: auto;
 }
 
 body h1, h2, h3, span, p, a {
@@ -249,12 +250,12 @@ nav a:hover {
   width: auto;
 }
 
-.PorjetosModal{
+.btn{
   display: flex;
   justify-content: center;
 }
 
-.PorjetosModal button{
+.btn a{
   cursor: pointer;
   font-size: 17px;
   color: var(--white);
@@ -262,6 +263,37 @@ nav a:hover {
   border: 3px var(--gray-dark2) solid;
   border-radius: 10px;
   padding: 3px 20px;
+}
+
+/*MODAL*/
+.modal{
+  background-color: var(--gray-dark);
+  display: none;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  z-index:3 !important;
+  overflow-y: scroll;
+}
+
+.btn-close{
+  position: relative;
+  left: 92%;
+  cursor: pointer;
+  font-size: 17px;
+  color: var(--white);
+  background-color: var(--red-dark);
+  border: 3px var(--gray-dark2) solid;
+  border-radius: 10px;
+  padding: 3px 20px;
+  margin-top: 5px;
+}
+
+.continerProjct{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
 }
 
 /*CONTATO*/
