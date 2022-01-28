@@ -107,7 +107,6 @@
     
     /*SOBRE MIM*/
     #Sobre{
-      padding-top: 60px;
       padding-bottom: 70px;
     }
     #Sobre img{
@@ -165,8 +164,11 @@
     .cardsProjeto h2{
       font-size: 18px;
     }
-    .cardsProjeto img{
+    .cardsProjeto .imgProj{
       height: 150px;
+    }
+    .cardsProjeto p{
+      max-width: 300px;
     }
     
     /*CONTATO*/
@@ -199,8 +201,12 @@
     #Sobre img{
       display: none;
     }
-    .cardsProjeto img{
-      height: 150px;
+    .cardsProjeto .imgProj{
+      width: auto;
+      height: 170px;
+    }
+    .cardsProjeto p{
+      max-width: 280px;
     }
   }
 

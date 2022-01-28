@@ -48,6 +48,7 @@ nav {
   height: 60px;
   gap: 9rem;
   z-index: 2;
+  border-bottom: solid 1px var(--red-dark);
 }
 
 nav #balls{
