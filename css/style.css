@@ -245,10 +245,20 @@ nav a:hover {
   padding-bottom: 10px;
 }
 
-.cardsProjeto img {
+.cardsProjeto .imgProj {
   height: 250px;
-  width: auto;
+  width: 450px;
 }
+
+.cardsProjeto p{
+  max-width: 450px;
+}
+
+.tecsUsadas img{
+  height: 35px;
+}
+
+
 
 .btn{
   display: flex;
@@ -263,6 +273,12 @@ nav a:hover {
   border: 3px var(--gray-dark2) solid;
   border-radius: 10px;
   padding: 3px 20px;
+  text-decoration: none;
+}
+
+.btn a:hover{
+  transition: 0.8s;
+  background-color: var(--gray-dark);
 }
 
 /*MODAL*/

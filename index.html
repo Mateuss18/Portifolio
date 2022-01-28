@@ -17,7 +17,7 @@
     <title>Mateus Lopes Portfolio</title>
 
   </head>
-  <body>
+  <body class="body">
     <header>
       <!--NAVEGATION-->
       <nav id="nav">
@@ -90,31 +90,90 @@
           <h3 class="title">Projetos</h3>
 
           <div id="ContainerCards">
-              <div class="cardsProjeto cardsInterval">
-                <h2>CRUD cadastro de cliente</h2>
-                <a href="https://mateuss18.github.io/CRUD-em-Javascript/" target="_blank"><img src="https://raw.githubusercontent.com/Mateuss18/CRUD-em-Javascript/main/images/CRUD.png" alt=""></a>
-                <p>Informações sobre o projeto</p>
-              </div>
+
+				<div class="cardsProjeto cardsInterval">
+					<h2>CRUD cadastro de cliente</h2>
+					<a href="https://mateuss18.github.io/CRUD-em-Javascript/" target="_blank">
+						<img class="imgProj" src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/CRUD.png" alt="">
+					</a>
+					<div class="tecsUsadas">
+						<img src="/assets/html5Icon.svg" alt="">
+						<img src="/assets/css3Icon.svg" alt="">
+						<img src="/assets/jsIcon.svg" alt="">
+					</div>
+					<p>Create Read Update e Delete completo para cadastro de clientes</p>
+				</div>
 
               <div class="cardsProjeto cardsInterval">
-                <h2>Nome projeto</h2>
-                <img src="./assets/teste.png" alt="">
-                <p>Informações sobre o projeto</p>
+					<h2>Tela de login do instagram</h2>
+					<a href="https://mateuss18.github.io/Instagram_login_clone/">
+						<img class="imgProj" src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/insta-login.png" alt="">
+					</a>
+					<div class="tecsUsadas">
+						<img src="/assets/html5Icon.svg" alt="">
+						<img src="/assets/css3Icon.svg" alt="">
+					</div>
+					<p>Pagina de login do instagram responsiva</p>
               </div>
 
-              <div class="cardsProjeto cardsInterval">
-                <h2>Nome projeto</h2>
-                <img src="./assets/teste.png" alt="">
-                <p>Informações sobre o projeto</p>
-              </div>
+				<div class="cardsProjeto cardsInterval">
+				<h2>Jogo da cobrinha</h2>
+				<a href="https://mateuss18.github.io/Jogo_da_cobrinha_JS/" target="_blank">
+					<img class="imgProj" src="https://user-images.githubusercontent.com/71786964/127561699-1c0b12cf-0b26-4049-8b97-317715584fee.png" alt="">
+				</a>
+				<div class="tecsUsadas">
+					<img src="/assets/html5Icon.svg" alt="">
+					<img src="/assets/css3Icon.svg" alt="">
+					<img src="/assets/jsIcon.svg" alt="">
+				</div>
+				<p>Jogo da cobrinha (Snake game) feito para se entender melhor como é desenvolvimento de jogos</p>
+				</div>
 
-              <div class="cardsProjeto cardsInterval">
-                <h2>Nome projeto</h2>
-                <img src="./assets/teste.png" alt="">
-                <p>Informações sobre o projeto</p>
+				<div class="cardsProjeto cardsInterval">
+					<h2>Formulario simples</h2>
+					<a href="https://mateuss18.github.io/Formulario/">
+						<img class="imgProj" src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/form-simples.png" alt="">
+					</a>
+					<div class="tecsUsadas">
+						<img src="/assets/html5Icon.svg" alt="">
+						<img src="/assets/css3Icon.svg" alt="">
+					</div>
+					<p>Pagina de formulario simples para cadastro de desenvolvedor</p>
               </div>
           </div>
-          <div class="PorjetosModal"><button>Mostrar mais</button></div>
+          <div onclick="abrirModal()" class="btn"><a href="#">Mostrar mais</a></div>
+      </section>
+
+      <!--MODAL DE PROJETOS-->
+      <section class="modal">
+        <button class="btn-close" onclick="fecharModal()">Fechar</button>
+        <div class="continerProjct">
+
+          <div class="cardsProjeto ">
+            <h2>CRUD cadastro de cliente</h2>
+            <a href="https://mateuss18.github.io/CRUD-em-Javascript/" target="_blank"><img src="https://raw.githubusercontent.com/Mateuss18/CRUD-em-Javascript/main/images/CRUD.png" alt=""></a>
+            <p>Informações sobre o projeto</p>
+          </div>
+  
+          <div class="cardsProjeto ">
+            <h2>Nome projeto 2</h2>
+            <img src="./assets/teste.png" alt="">
+            <p>Informações sobre o projeto</p>
+          </div>
+  
+          <div class="cardsProjeto ">
+            <h2>Nome projeto 3</h2>
+            <img src="./assets/teste.png" alt="">
+            <p>Informações sobre o projeto</p>
+          </div>
+  
+          <div class="cardsProjeto ">
+            <h2>Nome projeto 4</h2>
+            <img src="./assets/teste.png" alt="">
+            <p>Informações sobre o projeto</p>
+          </div>
+
+        </div>
       </section>
 
       <!--CONTATO-->
