@@ -293,9 +293,12 @@ nav a:hover {
   overflow-y: scroll;
 }
 
+.btn-nav{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
 .btn-close{
-  position: relative;
-  left: 92%;
   cursor: pointer;
   font-size: 17px;
   color: var(--white);
@@ -303,7 +306,10 @@ nav a:hover {
   border: 3px var(--gray-dark2) solid;
   border-radius: 10px;
   padding: 3px 20px;
-  margin-top: 5px;
+  margin: 5px 10px 10px 0;
+}
+.btn-close:hover{
+  background-color: #a00000;
 }
 
 .continerProjct{
