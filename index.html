@@ -1,270 +1,458 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--FAVICON-->
-    <link rel="shortcut icon" href="./assets/favicon1.png" type="image/x-icon">
-    <link rel="icon" href="./assets/favicon1.png" type="image/x-icon">
+        <!--FAVICON-->
+        <link
+            rel="shortcut icon"
+            href="./assets/favicon1.png"
+            type="image/x-icon"
+        />
+        <link rel="icon" href="./assets/favicon1.png" type="image/x-icon" />
 
-    <!--Etilo-->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!--Etilo-->
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/responsive.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <title>Mateus Lopes Portfolio</title>
+        <script src="./js/script.js" defer></script>
 
-  </head>
-  <body class="body">
-    <header>
-      <!--NAVEGATION-->
-      <nav id="nav">
-        <div id="balls">
-          <div class="ball" style="background-color: #940000;"></div>
-          <div class="ball" style="background-color: #191919;"></div>
-          <div class="ball" style="background-color: #D3D3D3;"></div>
-        </div>
-        <button id="btn-mobile">Menu
-          <span id="hamburger"></span>
-        </button>
-        <div id="menu">
-          <a href="#ApresentacaoHeader">Home</a>
-          <a href="#Sobre">Sobre</a>
-          <a href="#Conhecimentos">Conhecimentos</a>
-          <a href="#Projetos">Projetos</a>
-          <a href="#Contato">Contato</a>
-        </div>
-      </nav>
+        <title>Mateus Lopes Portfolio</title>
+    </head>
+    <body class="body">
+        <header>
+            <!--NAVEGATION-->
+            <nav id="nav">
+                <div id="balls">
+                    <div class="ball" style="background-color: #940000"></div>
+                    <div class="ball" style="background-color: #191919"></div>
+                    <div class="ball" style="background-color: #d3d3d3"></div>
+                </div>
+                <button id="btn-mobile">
+                    Menu
+                    <span id="hamburger"></span>
+                </button>
+                <div id="menu">
+                    <a href="#ApresentacaoHeader">Home</a>
+                    <a href="#Sobre">Sobre</a>
+                    <a href="#Conhecimentos">Conhecimentos</a>
+                    <a href="#Projetos">Projetos</a>
+                    <a href="#Contato">Contato</a>
+                </div>
+            </nav>
 
-      <!--HEADER COM APRESENTAÇÃO PESSOAL E UMA IMAGEM-->
-      <div id="ApresentacaoHeader">
-        <img class="image" src="./assets/Red-Space.jpg" alt="">
-        <aside class="informacoes">
-          <h1>
-            <span id="saudacaoHeader">Hello World, sou </span><br> 
-            <span id="nome">Mateus Antonio Rodrigues Lopes.</span> <br>
-            <span id="funcaoHeader">Desenvolvedor web</span>
-          </h1>
-        </aside>
-      </div>
-    </header>
+            <!--HEADER COM APRESENTAÇÃO PESSOAL E UMA IMAGEM-->
+            <div id="ApresentacaoHeader">
+                <img class="image" src="./assets/Red-Space.jpg" alt="" />
+                <aside class="informacoes">
+                    <h1>
+                        <span id="saudacaoHeader">Hello World, sou </span><br />
+                        <span id="nome">Mateus Antonio Rodrigues Lopes.</span>
+                        <br />
+                        <span id="funcaoHeader">Desenvolvedor web</span>
+                    </h1>
+                </aside>
+            </div>
+        </header>
 
-    <main>
-      <!--SOBRE MIM COM IMAGEM-->
-      <section id="Sobre">
-        <img class="image" src="./assets/Porfile-pic.jfif" alt="">
-        <aside>
-          <h3 class="title">Sobre mim</h3>
-          <p class="description">
-            Sou estudante do curso de Análise e Desenvolvimento de Sistemas na FATEC e estudo bastante as tecnologias web que comecei no  inicio de 2021. Atualmente estou em busca de uma oportunidade para entrar no mercado de trabalho aplicando e desenvolvendo ainda  mais meu conhecimento na área.
-          </p>
-        </aside>
-      </section>
+        <main>
+            <!--SOBRE MIM COM IMAGEM-->
+            <section id="Sobre">
+                <img class="image" src="./assets/Porfile-pic.jfif" alt="" />
+                <aside>
+                    <h3 class="title">Sobre mim</h3>
+                    <p class="description">
+                        Sou estudante do curso de Análise e Desenvolvimento de
+                        Sistemas na FATEC e estudo bastante as tecnologias web
+                        que comecei no inicio de 2021. Atualmente estou em busca
+                        de uma oportunidade para entrar no mercado de trabalho
+                        aplicando e desenvolvendo ainda mais meu conhecimento na
+                        área.
+                    </p>
+                </aside>
+            </section>
 
-      <!--CONHECIMENTOS-->
-      <section id="Conhecimentos">
-        <h3 class="title">Conhecimentos</h3>
-        <div id="TecnologiasCards">
-          <article class="CardsTecs cardsInterval">
-            <div class="CardsImage"><h2>HTML</h2><img src="./assets/logo-HTML5.png" alt=""></div> 
-            <aside class="AsideCards"><p>9 mêses de expêriencia</p></aside>
-          </article>
+            <!--CONHECIMENTOS-->
+            <section id="Conhecimentos">
+                <h3 class="title">Conhecimentos</h3>
+                <div id="TecnologiasCards">
+                    <article class="CardsTecs cardsInterval">
+                        <div class="CardsImage">
+                            <h2>HTML</h2>
+                            <img src="./assets/logo-HTML5.png" alt="" />
+                        </div>
+                        <aside class="AsideCards">
+                            <p>9 mêses de expêriencia</p>
+                        </aside>
+                    </article>
 
-          <article class="CardsTecs cardsInterval">
-            <div class="CardsImage"><h2>CSS</h2><img src="./assets/logo-CSS3.png" alt=""></div>
-            <aside class="AsideCards"><p>9 mêses de expêriencia</p></aside>
-          </article>
+                    <article class="CardsTecs cardsInterval">
+                        <div class="CardsImage">
+                            <h2>CSS</h2>
+                            <img src="./assets/logo-CSS3.png" alt="" />
+                        </div>
+                        <aside class="AsideCards">
+                            <p>9 mêses de expêriencia</p>
+                        </aside>
+                    </article>
 
-          <article class="CardsTecs cardsInterval">
-            <div class="CardsImage"><h2>JavaScript</h2><img src="./assets/logo-Javascript.png" alt=""></div>
-            <aside class="AsideCards"><p>9 mêses de expêriencia</p></aside>
-          </article>
+                    <article class="CardsTecs cardsInterval">
+                        <div class="CardsImage">
+                            <h2>JavaScript</h2>
+                            <img src="./assets/logo-Javascript.png" alt="" />
+                        </div>
+                        <aside class="AsideCards">
+                            <p>9 mêses de expêriencia</p>
+                        </aside>
+                    </article>
+                </div>
+            </section>
 
-        </div>
-      </section>
+            <!--PROJETOS-->
+            <section id="Projetos">
+                <h3 class="title">Projetos</h3>
 
-      <!--PROJETOS-->
-      <section id="Projetos">
-          <h3 class="title">Projetos</h3>
-
-          <div id="ContainerCards">
-
-				<div class="cardsProjeto cardsInterval">
-					<h2>CRUD cadastro de cliente</h2>
-					<a href="https://mateuss18.github.io/CRUD-em-Javascript/" target="_blank">
-						<img class="imgProj" src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/CRUD.png" alt="">
-					</a>
-					<div class="tecsUsadas">
-						<img src="/assets/html5Icon.svg" alt="">
-						<img src="/assets/css3Icon.svg" alt="">
-						<img src="/assets/jsIcon.svg" alt="">
-					</div>
-					<p>Create Read Update e Delete completo para cadastro de clientes</p>
-				</div>
-
-              <div class="cardsProjeto cardsInterval">
-					<h2>Tela de login do instagram</h2>
-					<a href="https://mateuss18.github.io/Instagram_login_clone/" target="_blank">
-						<img class="imgProj" src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/insta-login.png" alt="">
-					</a>
-					<div class="tecsUsadas">
-						<img src="/assets/html5Icon.svg" alt="">
-						<img src="/assets/css3Icon.svg" alt="">
-					</div>
-					<p>Pagina de login do instagram responsiva</p>
-              </div>
-
-				<div class="cardsProjeto cardsInterval">
-                    <h2>Jogo da cobrinha</h2>
-                    <a href="https://mateuss18.github.io/Jogo_da_cobrinha_JS/" target="_blank">
-                        <img class="imgProj" src="https://user-images.githubusercontent.com/71786964/127561699-1c0b12cf-0b26-4049-8b97-317715584fee.png" alt="">
-                    </a>
-                    <div class="tecsUsadas">
-                        <img src="/assets/html5Icon.svg" alt="">
-                        <img src="/assets/css3Icon.svg" alt="">
-                        <img src="/assets/jsIcon.svg" alt="">
+                <div id="ContainerCards">
+                    <div class="cardsProjeto cardsInterval">
+                        <h2>CRUD cadastro de cliente</h2>
+                        <a
+                            href="https://mateuss18.github.io/CRUD-em-Javascript/"
+                            target="_blank"
+                        >
+                            <img
+                                class="imgProj"
+                                src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/CRUD.png"
+                                alt=""
+                            />
+                        </a>
+                        <div class="tecsUsadas">
+                            <img src="/assets/html5Icon.svg" alt="" />
+                            <img src="/assets/css3Icon.svg" alt="" />
+                            <img src="/assets/jsIcon.svg" alt="" />
+                        </div>
+                        <p>
+                            Create Read Update e Delete completo para cadastro
+                            de clientes
+                        </p>
                     </div>
-                    <p>Jogo da cobrinha (Snake game) feito para se entender melhor como é desenvolvimento de jogos</p>
-				</div>
 
-                <div class="cardsProjeto cardsInterval">
-                    <h2>Formulario simples</h2>
-                    <a href="https://mateuss18.github.io/Formulario/" target="_blank">
-                        <img class="imgProj" src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/form-simples.png" alt="">
-                    </a>
-                    <div class="tecsUsadas">
-                        <img src="/assets/html5Icon.svg" alt="">
-                        <img src="/assets/css3Icon.svg" alt="">
+                    <div class="cardsProjeto cardsInterval">
+                        <h2>Tela de login do instagram</h2>
+                        <a
+                            href="https://mateuss18.github.io/Instagram_login_clone/"
+                            target="_blank"
+                        >
+                            <img
+                                class="imgProj"
+                                src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/insta-login.png"
+                                alt=""
+                            />
+                        </a>
+                        <div class="tecsUsadas">
+                            <img src="/assets/html5Icon.svg" alt="" />
+                            <img src="/assets/css3Icon.svg" alt="" />
+                        </div>
+                        <p>Pagina de login do instagram responsiva</p>
                     </div>
-                    <p>Pagina de formulario simples para cadastro de desenvolvedor</p>
+
+                    <div class="cardsProjeto cardsInterval">
+                        <h2>Jogo da cobrinha</h2>
+                        <a
+                            href="https://mateuss18.github.io/Jogo_da_cobrinha_JS/"
+                            target="_blank"
+                        >
+                            <img
+                                class="imgProj"
+                                src="https://user-images.githubusercontent.com/71786964/127561699-1c0b12cf-0b26-4049-8b97-317715584fee.png"
+                                alt=""
+                            />
+                        </a>
+                        <div class="tecsUsadas">
+                            <img src="/assets/html5Icon.svg" alt="" />
+                            <img src="/assets/css3Icon.svg" alt="" />
+                            <img src="/assets/jsIcon.svg" alt="" />
+                        </div>
+                        <p>
+                            Jogo da cobrinha (Snake game) feito para se entender
+                            melhor como é desenvolvimento de jogos
+                        </p>
+                    </div>
+
+                    <div class="cardsProjeto cardsInterval">
+                        <h2>Formulario simples</h2>
+                        <a
+                            href="https://mateuss18.github.io/Formulario/"
+                            target="_blank"
+                        >
+                            <img
+                                class="imgProj"
+                                src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/form-simples.png"
+                                alt=""
+                            />
+                        </a>
+                        <div class="tecsUsadas">
+                            <img src="/assets/html5Icon.svg" alt="" />
+                            <img src="/assets/css3Icon.svg" alt="" />
+                        </div>
+                        <p>
+                            Pagina de formulario simples para cadastro de
+                            desenvolvedor
+                        </p>
+                    </div>
                 </div>
-
-          </div>
-          <div onclick="abrirModal()" class="btn"><a href="#">Mostrar mais</a></div>
-      </section>
-
-      <!--MODAL DE PROJETOS-->
-      <section class="modal">
-		<div class="btn-nav">
-			<button class="btn-close" onclick="fecharModal()">X</button>
-		</div>
-        <div class="continerProjct">
-
-            <div class="cardsProjeto">
-                <h2>Blog Codelândia</h2>
-                <a href="https://mateuss18.github.io/Desafio01_Codelandia-Blog/" target="_blank">
-                    <img class="imgProj" src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/Blog.png" alt="Imagem do projeto">
-                </a>
-                <div class="tecsUsadas">
-                    <img src="/assets/html5Icon.svg" alt="Icone HTML5">
-                    <img src="/assets/css3Icon.svg" alt="Icone CSS3">
-                    <img src="/assets/jsIcon.svg" alt="Icone JavaScript">
+                <div onclick="abrirModal()" class="btn">
+                    <a href="#">Mostrar mais</a>
                 </div>
-                <p>Uma pagina de noticias simples</p>
-            </div>
-  
-            <div class="cardsProjeto">
-                <h2>JordanShoes</h2>
-                <a href="https://mateuss18.github.io/Desafio02_Codelandia-JordanShoes/" target="_blank">
-                    <img class="imgProj" src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/JordanShoes.png" alt="Imagem do projeto">
-                </a>
-                <div class="tecsUsadas">
-                    <img src="/assets/html5Icon.svg" alt="Icone HTML5">
-                    <img src="/assets/css3Icon.svg" alt="Icone CSS3">
-                    <img src="/assets/jsIcon.svg" alt="Icone JavaScript">
+            </section>
+
+            <!--MODAL DE PROJETOS-->
+            <section class="modal">
+                <div class="btn-nav">
+                    <button class="btn-close" onclick="fecharModal()">X</button>
                 </div>
-                <p>Pagina demonstrando alguns tênis Jordan</p>
-            </div>
-  
-            <div class="cardsProjeto">
-                <h2>Halloweenpedia</h2>
-                <a href="https://mateuss18.github.io/Desafio03_Codelandia-HalloweenPedia/" target="_blank">
-                    <img class="imgProj" src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/HalloweenPedia.png" alt="Imagem do projeto">
-                </a>
-                <div class="tecsUsadas">
-                    <img src="/assets/html5Icon.svg" alt="Icone HTML5">
-                    <img src="/assets/css3Icon.svg" alt="Icone CSS3">
-                    <img src="/assets/jsIcon.svg" alt="Icone JavaScript">
+                <div class="continerProjct">
+                    <div class="cardsProjeto">
+                        <h2>Blog Codelândia</h2>
+                        <a
+                            href="https://mateuss18.github.io/Desafio01_Codelandia-Blog/"
+                            target="_blank"
+                        >
+                            <img
+                                class="imgProj"
+                                src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/Blog.png"
+                                alt="Imagem do projeto"
+                            />
+                        </a>
+                        <div class="tecsUsadas">
+                            <img
+                                src="/assets/html5Icon.svg"
+                                alt="Icone HTML5"
+                            />
+                            <img src="/assets/css3Icon.svg" alt="Icone CSS3" />
+                            <img
+                                src="/assets/jsIcon.svg"
+                                alt="Icone JavaScript"
+                            />
+                        </div>
+                        <p>Uma pagina de noticias simples</p>
+                    </div>
+
+                    <div class="cardsProjeto">
+                        <h2>JordanShoes</h2>
+                        <a
+                            href="https://mateuss18.github.io/Desafio02_Codelandia-JordanShoes/"
+                            target="_blank"
+                        >
+                            <img
+                                class="imgProj"
+                                src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/JordanShoes.png"
+                                alt="Imagem do projeto"
+                            />
+                        </a>
+                        <div class="tecsUsadas">
+                            <img
+                                src="/assets/html5Icon.svg"
+                                alt="Icone HTML5"
+                            />
+                            <img src="/assets/css3Icon.svg" alt="Icone CSS3" />
+                            <img
+                                src="/assets/jsIcon.svg"
+                                alt="Icone JavaScript"
+                            />
+                        </div>
+                        <p>Pagina demonstrando alguns tênis Jordan</p>
+                    </div>
+
+                    <div class="cardsProjeto">
+                        <h2>Halloweenpedia</h2>
+                        <a
+                            href="https://mateuss18.github.io/Desafio03_Codelandia-HalloweenPedia/"
+                            target="_blank"
+                        >
+                            <img
+                                class="imgProj"
+                                src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/HalloweenPedia.png"
+                                alt="Imagem do projeto"
+                            />
+                        </a>
+                        <div class="tecsUsadas">
+                            <img
+                                src="/assets/html5Icon.svg"
+                                alt="Icone HTML5"
+                            />
+                            <img src="/assets/css3Icon.svg" alt="Icone CSS3" />
+                            <img
+                                src="/assets/jsIcon.svg"
+                                alt="Icone JavaScript"
+                            />
+                        </div>
+                        <p>
+                            Curiosidades sobre simbolos e personagens do
+                            Halloween
+                        </p>
+                    </div>
+
+                    <div class="cardsProjeto">
+                        <h2>Login Page</h2>
+                        <a
+                            href="https://mateuss18.github.io/Desafio04_Login-Page/"
+                            target="_blank"
+                        >
+                            <img
+                                class="imgProj"
+                                src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/Login.png"
+                                alt="Imagem do projeto"
+                            />
+                        </a>
+                        <div class="tecsUsadas">
+                            <img
+                                src="/assets/html5Icon.svg"
+                                alt="Icone HTML5"
+                            />
+                            <img src="/assets/sassIcon.svg" alt="Icone SASS" />
+                        </div>
+                        <p>Pagina de login responsiva</p>
+                    </div>
+
+                    <div class="cardsProjeto">
+                        <h2>Pagina especial de Natal</h2>
+                        <a
+                            href="https://mateuss18.github.io/Landing-page_Natal-e-Ano-Novo/"
+                            target="_blank"
+                        >
+                            <img
+                                class="imgProj"
+                                src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/NatalPage.png"
+                                alt="Imagem do projeto"
+                            />
+                        </a>
+                        <div class="tecsUsadas">
+                            <img
+                                src="/assets/html5Icon.svg"
+                                alt="Icone HTML5"
+                            />
+                            <img src="/assets/css3Icon.svg" alt="Icone CSS3" />
+                            <img
+                                src="/assets/jsIcon.svg"
+                                alt="Icone JavaScript"
+                            />
+                        </div>
+                        <p>Uma pagina com espirito natalino</p>
+                    </div>
+
+                    <div class="cardsProjeto">
+                        <h2>Calculadora de IMC</h2>
+                        <a
+                            href="https://mateuss18.github.io/Calculadora-IMC/"
+                            target="_blank"
+                        >
+                            <img
+                                class="imgProj"
+                                src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/CalculadoraIMC.png         "
+                                alt="Imagem do projeto"
+                            />
+                        </a>
+                        <div class="tecsUsadas">
+                            <img
+                                src="/assets/html5Icon.svg"
+                                alt="Icone HTML5"
+                            />
+                            <img src="/assets/sassIcon.svg" alt="Icone SASS" />
+                            <img
+                                src="/assets/jsIcon.svg"
+                                alt="Icone JavaScript"
+                            />
+                        </div>
+                        <p>
+                            Uma calculadora para saber seu Indice de Massa
+                            Corporal
+                        </p>
+                    </div>
+
+                    <div class="cardsProjeto">
+                        <h2>Countdown</h2>
+                        <a
+                            href="https://mateuss18.github.io/Countdown/"
+                            target="_blank"
+                        >
+                            <img
+                                class="imgProj"
+                                src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/countdown.png"
+                                alt="Imagem do projeto"
+                            />
+                        </a>
+                        <div class="tecsUsadas">
+                            <img
+                                src="/assets/html5Icon.svg"
+                                alt="Icone HTML5"
+                            />
+                            <img src="/assets/sassIcon.svg" alt="Icone SASS" />
+                            <img
+                                src="/assets/jsIcon.svg"
+                                alt="Icone JavaScript"
+                            />
+                        </div>
+                        <p>
+                            Um countdown que faz a contagem regressiva para uma
+                            determinada data
+                        </p>
+                    </div>
                 </div>
-                <p>Curiosidades sobre simbolos e personagens do Halloween</p>
-            </div>
-  
-            <div class="cardsProjeto">
-                <h2>Login Page</h2>
-                <a href="https://mateuss18.github.io/Desafio04_Login-Page/" target="_blank">
-                    <img class="imgProj" src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/Login.png" alt="Imagem do projeto">
-                </a>
-                <div class="tecsUsadas">
-                    <img src="/assets/html5Icon.svg" alt="Icone HTML5">
-                    <img src="/assets/sassIcon.svg" alt="Icone SASS">
-                </div>
-                <p>Pagina de login responsiva</p>
-            </div>
+            </section>
 
-            <div class="cardsProjeto">
-                <h2>Pagina especial de Natal</h2>
-                <a href="https://mateuss18.github.io/Landing-page_Natal-e-Ano-Novo/" target="_blank">
-                    <img class="imgProj" src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/NatalPage.png" alt="Imagem do projeto">
-                </a>
-                <div class="tecsUsadas">
-                    <img src="/assets/html5Icon.svg" alt="Icone HTML5">
-                    <img src="/assets/css3Icon.svg" alt="Icone CSS3">
-                    <img src="/assets/jsIcon.svg" alt="Icone JavaScript">
-                </div>
-                <p>Uma pagina com espirito natalino</p>
-            </div>
+            <!--CONTATO-->
+            <section id="Contato">
+                <h3 class="title">Contato</h3>
 
-            <div class="cardsProjeto">
-                <h2>Calculadora de IMC</h2>
-                <a href="https://mateuss18.github.io/Calculadora-IMC/" target="_blank">
-                    <img class="imgProj" src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/CalculadoraIMC.png         " alt="Imagem do projeto">
-                </a>
-                <div class="tecsUsadas">
-                    <img src="/assets/html5Icon.svg" alt="Icone HTML5">
-                    <img src="/assets/sassIcon.svg" alt="Icone SASS">
-                    <img src="/assets/jsIcon.svg" alt="Icone JavaScript">
-                </div>
-                <p>Uma calculadora para saber seu Indice de Massa Corporal</p>
-            </div>
+                <ul>
+                    <li>
+                        <a
+                            class="cardsInterval"
+                            href="mailto:Mateus20.lopes02@gmail.com"
+                            target="_blank"
+                            ><img
+                                style="
+                                    border: 2px solid #ef3828;
+                                    border-radius: 25px;
+                                "
+                                src="./assets/email-logo.png"
+                                alt=""
+                        /></a>
+                    </li>
+                    <li>
+                        <a
+                            class="cardsInterval"
+                            href="https://www.linkedin.com/in/mateus--lopes/"
+                            target="_blank"
+                            ><img src="./assets/linkedin-logo.png" alt=""
+                        /></a>
+                    </li>
+                    <li>
+                        <a
+                            class="cardsInterval"
+                            href="https://github.com/Mateuss18"
+                            target="_blank"
+                            ><img src="./assets/github-logo.png" alt=""
+                        /></a>
+                    </li>
+                    <li>
+                        <a
+                            class="cardsInterval"
+                            href="https://api.whatsapp.com/send?phone=5519996489694"
+                            target="_blank"
+                            ><img src="./assets/whatsapp-logo.png" alt=""
+                        /></a>
+                    </li>
+                </ul>
+            </section>
+        </main>
 
-            <div class="cardsProjeto">
-              <h2>Countdown</h2>
-              <a href="https://mateuss18.github.io/Countdown/" target="_blank">
-                  <img class="imgProj" src="https://raw.githubusercontent.com/Mateuss18/Imagens-Repositorio/main/countdown.png" alt="Imagem do projeto">
-              </a>
-              <div class="tecsUsadas">
-                  <img src="/assets/html5Icon.svg" alt="Icone HTML5">
-                  <img src="/assets/sassIcon.svg" alt="Icone SASS">
-                  <img src="/assets/jsIcon.svg" alt="Icone JavaScript">
-              </div>
-              <p>Um countdown que faz a contagem regressiva para uma determinada data</p>
-          </div>
-        </div>
-      </section>
+        <footer>&copy;Copyright 2021 - Desenvolvido por Mateus Lopes</footer>
 
-      <!--CONTATO-->
-      <section id="Contato">
-        <h3 class="title">Contato</h3>
-
-        <ul>
-          <li><a class="cardsInterval" href="mailto:Mateus20.lopes02@gmail.com" target="_blank"><img style="border: 2px solid #EF3828; border-radius: 25px;" src="./assets/email-logo.png" alt=""></a></li>
-          <li><a class="cardsInterval" href="https://www.linkedin.com/in/mateus--lopes/" target="_blank"><img src="./assets/linkedin-logo.png" alt=""></a></li>
-          <li><a class="cardsInterval" href="https://github.com/Mateuss18" target="_blank"><img src="./assets/github-logo.png" alt=""></a></li>
-          <li><a class="cardsInterval" href="https://api.whatsapp.com/send?phone=5519996489694" target="_blank"><img src="./assets/whatsapp-logo.png" alt=""></a></li>
-        </ul>
-      </section>
-    </main>
-
-    <footer>
-      &copy;Copyright 2021 - Desenvolvido por Mateus Lopes
-    </footer>
-    
-
-
-    <!--Scroll reveal-->
-    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
-    <script src="/js/script.js"></script>
-  </body>
+        <!--Scroll reveal-->
+        <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    </body>
 </html>
